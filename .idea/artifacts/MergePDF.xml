@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MergePDF">
+    <output-path>$PROJECT_DIR$/out/artifacts/MergePDF</output-path>
+    <root id="archive" name="MergePDF.jar">
+      <element id="module-output" name="PDF" />
+      <element id="library" level="project" name="pdfbox-app-2.0.8" />
+      <element id="library" level="project" name="preflight-app-2.0.8" />
+      <element id="library" level="project" name="Siebel" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
